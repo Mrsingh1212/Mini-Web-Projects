@@ -1,0 +1,59 @@
+/* weather-app style.css placeholder */
+body {
+  background: #e0f7fa;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.weather-app {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 25px rgba(0, 229, 255, 0.5);
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+}
+
+.weather-app :hover{
+    box-shadow: 0 0 35px rgba(0, 229, 255, 0.7);
+}
+
+input {
+  width: 80%;
+  padding: 0.6rem;
+  margin: 1rem 0;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input :hover{
+    box-shadow: 0 0 35px rgba(0, 229, 255, 0.325);
+    transition: 0.5s;
+    transform: scale(1.02);
+}
+
+button {
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+  box-shadow: 0 0 35px rgba(0, 229, 255, 0.7);
+}
+
+.result-box {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}

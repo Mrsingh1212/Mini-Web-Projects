@@ -1,0 +1,65 @@
+<!-- portfolio-website index.html placeholder -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sujal Singh | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header data-aos="fade-down">
+    <h1>Sujal Singh</h1>
+    <p>Web Developer | Software Developer</p>
+  </header>
+
+  <section id="about" data-aos="fade-right">
+    <h2>About Me</h2>
+    <p>I am a passionate web developer with skills in HTML, CSS, JavaScript, and React. I build responsive and functional websites with a clean UI.</p>
+  </section>
+
+  <section id="projects" data-aos="fade-up">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="assets/project1.png" alt="To-Do App">
+        <h3>To-Do App</h3>
+        <p>A simple CRUD app built with JavaScript and LocalStorage</p>
+      </div>
+      <div class="project-card">
+        <img src="assets/project1.png" alt="Weather App">
+        <h3>Weather App</h3>
+        <p>Get live weather updates using OpenWeatherMap API</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" data-aos="zoom-in">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/manjgvvw" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Sujal Singh</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+  <script src="script.js"></script>
+</body>
+</html>
