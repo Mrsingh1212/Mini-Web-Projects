@@ -6,7 +6,7 @@ A curated collection of beginner-friendly and responsive **HTML, CSS, and JavaSc
 
 | Project           | Description | Source Code |
 |------------------|-----------|-------------|
-| Portfolio Website | *(Personal portfolio website)* | [`/portfolio-website`](https://mrsingh1212.github.io/Mini-Web-Projects/portfolio/) |
+| Portfolio Website | *(Personal portfolio website)* | [`/portfolio-website`](https://mrsingh1212.github.io/Portfolio-website/) |
 | Calculator        | *( Basic calculator with dark mode toggle addding soon)* | [`/calculator`](https://mrsingh1212.github.io/Mini-Web-Projects/calculator/) |
 | To-Do List        | *(Task tracker with local storage)* | [`/to-do-app`](https://mrsingh1212.github.io/Mini-Web-Projects/todo-app/) |
 | Weather App       | *(Real-time weather using OpenWeatherMap API)* | [`/weather-app`](https://mrsingh1212.github.io/Mini-Web-Projects/weather-app/) |
